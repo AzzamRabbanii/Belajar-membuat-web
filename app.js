@@ -40,11 +40,23 @@
 
 // var kelas = hello("  x rpl b")
 // kelas()
+ 
+// closure
 
-// clouser
+// function tidur(nama, kelas){
+//     console.log("Nama :", nama, "\nKelas :", kelas)
+// }
 
-function tidur(nama, kelas){
-    console.log("Nama :", nama, "\nKelas :", kelas)
+// tidur("Muhammad Azzam Rabbani", "X RPL B")
+
+// scope
+
+let riyad = 'azzam'
+function ngenal() {
+    console.log(riyad)
+    if(true){
+        const santri = 'rabbani'
+        console.log(santri)
+    }
 }
-
-tidur("Muhammad Azzam Rabbani", "X RPL B")
+ngenal()
