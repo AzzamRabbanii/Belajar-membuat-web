@@ -14,11 +14,37 @@
 
 // block scope 
 
-function hello(){
-    if(true){
-        let manggil = 'halo mate'
-        console.log(manggil)
-    }
-    console.log(manggil)
+// function hello(){
+//     if(true){
+//         let manggil = 'halo mate'
+//         console.log(manggil)
+//     }
+//     console.log(manggil)
+// }
+// hello()
+
+// closure
+
+// function hello(nama, kelas){
+//     var a = 'nama :' +nama // nama adalah nama dari parameter
+//     return function () {
+//         console.log(a)
+//     }
+//     var b = 'kelas :' +kelas
+//     return function () {
+//         console.log(b)
+//     }
+// }
+// var azzam = hello("  Muhammad Azzam Rabbani")
+// azzam()
+
+// var kelas = hello("  x rpl b")
+// kelas()
+
+// clouser
+
+function tidur(nama, kelas){
+    console.log("Nama :", nama, "\nKelas :", kelas)
 }
-hello()
+
+tidur("Muhammad Azzam Rabbani", "X RPL B")
