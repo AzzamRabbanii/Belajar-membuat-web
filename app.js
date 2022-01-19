@@ -51,7 +51,7 @@
 
 // scope
 
-let riyad = 'azzam'
+const riyad = 'azzam'
 function ngenal() {
     console.log(riyad)
     if(true){
